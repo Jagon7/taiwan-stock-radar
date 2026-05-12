@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "data": [
     {
       "code": "3228",
@@ -90,16 +90,6 @@
       "endDate": "2026-05-13",
       "announceDate": "115/04/28",
       "market": "上市"
-    },
-    {
-      "code": "7751",
-      "name": "竑騰",
-      "count": 1,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/04/29~115/05/13",
-      "endDate": "2026-05-13",
-      "announceDate": "115/04/28",
-      "market": "上櫃"
     },
     {
       "code": "4529",
@@ -499,6 +489,76 @@
       "period": "115/05/12~115/05/25",
       "endDate": "2026-05-25",
       "announceDate": "115/05/11",
+      "market": "上櫃"
+    },
+    {
+      "code": "1809",
+      "name": "中釉",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/13～115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上市"
+    },
+    {
+      "code": "2059",
+      "name": "川湖",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/13～115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上市"
+    },
+    {
+      "code": "3450",
+      "name": "聯鈞",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/13～115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上市"
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/13～115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上市"
+    },
+    {
+      "code": "3664",
+      "name": "安瑞-KY",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/13~115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上櫃"
+    },
+    {
+      "code": "4979",
+      "name": "華星光",
+      "count": 7,
+      "condition": "連續5個營業日",
+      "period": "115/05/13~115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
+      "market": "上櫃"
+    },
+    {
+      "code": "7751",
+      "name": "竑騰",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/13~115/05/26",
+      "endDate": "2026-05-26",
+      "announceDate": "115/05/12",
       "market": "上櫃"
     }
   ]

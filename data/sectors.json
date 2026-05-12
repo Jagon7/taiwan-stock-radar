@@ -1,53 +1,53 @@
 {
-  "date": "2026-05-11",
+  "date": "2026-05-12",
   "data": [
     {
       "name": "半導體",
-      "count": 4,
-      "momentum": "normal"
-    },
-    {
-      "name": "電腦週邊",
-      "count": 4,
-      "momentum": "normal"
+      "count": 19,
+      "momentum": "strong"
     },
     {
       "name": "電子零組件",
+      "count": 10,
+      "momentum": "strong"
+    },
+    {
+      "name": "電腦週邊",
+      "count": 6,
+      "momentum": "strong"
+    },
+    {
+      "name": "電機機械",
+      "count": 5,
+      "momentum": "normal"
+    },
+    {
+      "name": "通信網路",
       "count": 4,
       "momentum": "normal"
     },
     {
-      "name": "光電",
-      "count": 2,
-      "momentum": "weak"
-    },
-    {
-      "name": "生技醫療",
-      "count": 2,
-      "momentum": "weak"
-    },
-    {
       "name": "電子通路",
-      "count": 2,
-      "momentum": "weak"
-    },
-    {
-      "name": "通信網路",
-      "count": 2,
-      "momentum": "weak"
-    },
-    {
-      "name": "其他電子",
-      "count": 1,
-      "momentum": "weak"
+      "count": 3,
+      "momentum": "normal"
     },
     {
       "name": "化工",
+      "count": 2,
+      "momentum": "weak"
+    },
+    {
+      "name": "光電",
       "count": 1,
       "momentum": "weak"
     },
     {
-      "name": "數位雲端",
+      "name": "金融保險",
+      "count": 1,
+      "momentum": "weak"
+    },
+    {
+      "name": "玻璃陶瓷",
       "count": 1,
       "momentum": "weak"
     }
