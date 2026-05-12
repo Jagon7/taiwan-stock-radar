@@ -1441,9 +1441,9 @@
       "limitTime": "--:--",
       "market": "上市",
       "instiForeign": -387,
-      "instiTrust": 22,
+      "instiTrust": 0,
       "instiDealer": -20,
-      "instiTotal": 0,
+      "instiTotal": -407,
       "reason": ""
     },
     {
