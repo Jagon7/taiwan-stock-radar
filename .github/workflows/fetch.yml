@@ -2,7 +2,7 @@ name: Daily Stock Data Fetch
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # 19:00 CST (UTC+8) = 11:00 UTC
+    - cron: '30 0 * * *'   # 08:30 CST (UTC+8) = 00:30 UTC
   workflow_dispatch:        # 可手動觸發
 
 permissions:
