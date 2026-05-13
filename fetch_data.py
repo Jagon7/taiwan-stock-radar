@@ -778,6 +778,90 @@ def fetch_announcements() -> list[dict]:
     log("公告資料：使用空清單（待接 MOPS API）")
     return []
 
+# ── FSC 申報案件彙總表（轉換公司債）─────────────────────────────
+def fetch_sfb_cb() -> list[dict]:
+    log("抓取 FSC 申報案件 CB 資料（sfb.gov.tw）...")
+    import re as _re, io as _io
+    try:
+        import openpyxl
+    except ImportError:
+        log("✗ openpyxl 未安裝，FSB CB 略過")
+        return []
+
+    # 動態找最新 115 年度申報案件彙總表 xlsx
+    try:
+        r = SESSION.get("https://www.sfb.gov.tw/ch/home.jsp?id=1016&parentpath=0,6,52", timeout=20)
+        r.raise_for_status()
+        html = r.text
+    except Exception as e:
+        log(f"✗ SFB 頁面抓取失敗 → {e}")
+        return []
+
+    roc_year = str(TODAY.year - 1911)
+    pattern = (
+        r'https://www\.fsc\.gov\.tw/userfiles/file/'
+        + roc_year + r'\d{4}'
+        + r'%E7%94%B3%E5%A0%B1%E6%A1%88%E4%BB%B6%E5%BD%99%E7%B8%BD%E8%A1%A8\.xlsx'
+    )
+    matches = _re.findall(pattern, html)
+    if not matches:
+        log(f"✗ 找不到 {roc_year}年度申報案件 Excel URL")
+        return []
+
+    excel_url = matches[-1]
+    log(f"  Excel: {excel_url}")
+
+    try:
+        r = SESSION.get(excel_url, timeout=30)
+        r.raise_for_status()
+        wb = openpyxl.load_workbook(_io.BytesIO(r.content))
+    except Exception as e:
+        log(f"✗ Excel 下載/解析失敗 → {e}")
+        return []
+
+    ws = wb.active
+    results = []
+    for row in ws.iter_rows(min_row=4, values_only=True):
+        if not row[5] or "轉換公司債" not in str(row[5]):
+            continue
+        code        = str(row[0]).strip() if row[0] else ""
+        market      = str(row[1]).strip() if row[1] else ""
+        status      = str(row[2]).strip() if row[2] else "審查中"
+        name        = str(row[3]).strip() if row[3] else ""
+        underwriter = str(row[4]).strip() if row[4] else None
+        cb_type     = str(row[5]).strip() if row[5] else ""
+        amount_raw  = row[6]
+        currency    = str(row[7]).strip() if row[7] else "台幣"
+        filing_date    = roc_to_ad(str(row[9]))  if row[9]  else None
+        effective_date = roc_to_ad(str(row[13])) if row[13] else None
+        withdraw_date  = roc_to_ad(str(row[15])) if row[15] else None
+
+        # 金額：台幣→億元，外幣→百萬元
+        amount_b = None
+        if amount_raw:
+            try:
+                v = float(str(amount_raw).replace(",", ""))
+                amount_b = round(v / (1e8 if currency == "台幣" else 1e6), 1)
+            except Exception:
+                pass
+
+        results.append({
+            "code":          code,
+            "name":          name,
+            "market":        market,
+            "status":        status,
+            "cbType":        cb_type,
+            "amount":        amount_b,
+            "currency":      currency,
+            "filingDate":    filing_date,
+            "effectiveDate": effective_date,
+            "withdrawDate":  withdraw_date,
+            "underwriter":   underwriter,
+        })
+
+    log(f"  FSC CB：{len(results)} 筆")
+    return results
+
 # ── 主流程 ──────────────────────────────────────────────────
 def main():
     log(f"=== JSS 資料抓取開始 {TODAY_AD} ===")
@@ -791,6 +875,7 @@ def main():
     notice        = fetch_notice_stocks()
     disposition   = fetch_disposition_stocks()
     cb_issuances  = fetch_cb_issuances()
+    sfb_cb        = fetch_sfb_cb()
     announcements = fetch_announcements()
 
     market["noticeCount"]      = len(notice)
@@ -803,6 +888,7 @@ def main():
     save("notice.json",        {"date": TODAY_AD, "data": notice})
     save("disposition.json",   {"date": TODAY_AD, "data": disposition})
     save("cb-watch.json",      {"date": TODAY_AD, "data": cb_issuances})
+    save("sfb-cb.json",        {"date": TODAY_AD, "data": sfb_cb})
     save("announcements.json", {"date": TODAY_AD, "data": announcements})
     save("last-updated.json",  {"updatedAt": datetime.datetime.utcnow().isoformat() + "Z", "date": TODAY_AD})
 
