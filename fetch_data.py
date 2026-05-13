@@ -800,7 +800,7 @@ def main():
     save("disposition.json",   {"date": TODAY_AD, "data": disposition})
     save("cb-watch.json",      {"date": TODAY_AD, "data": cb_issuances})
     save("announcements.json", {"date": TODAY_AD, "data": announcements})
-    save("last-updated.json",  {"updatedAt": datetime.datetime.now().isoformat(), "date": TODAY_AD})
+    save("last-updated.json",  {"updatedAt": datetime.datetime.utcnow().isoformat() + "Z", "date": TODAY_AD})
 
     log(f"=== 完成 ===")
     log(f"  漲停：{len(limit_stocks)} 檔 | 族群：{len(sectors)} 個 | 注意：{len(notice)} 檔 | 處置：{len(disposition)} 檔 | CB詢圈：{len(cb_issuances)} 筆")
