@@ -198,37 +198,41 @@ def fetch_limit_up(sector_map: dict, insti_map: dict = None) -> list[dict]:
     stocks = []
 
     # ── 上市 (TWSE) ──
-    twse = fetch("https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL")
-    if twse:
-        for row in twse:
-            code  = row.get("Code", "").strip()
-            close = parse_price(row.get("ClosingPrice", 0))
-            chg   = parse_price(row.get("Change", 0))
-            vol   = int(parse_price(row.get("TradeVolume", 0)) / 1000)  # 張
-            tv    = parse_price(row.get("TradeValue", 0))               # 成交金額（元）
-            pct   = calc_change_pct(close, chg)
-            if not (LIMIT_UP_MIN <= pct <= LIMIT_UP_MAX):
-                continue
-            if not code.isdigit():
-                continue
-            insti = (insti_map or {}).get(code, {})
-            stocks.append({
-                "code":       code,
-                "name":       row.get("Name", "").strip(),
-                "sector":     sector_map.get(code, "其他"),
-                "change":     pct,
-                "volume":     vol,
-                "tradeValue": tv,
-                "closePrice": close,
-                "openPrice":  parse_price(row.get("OpeningPrice", close)),
-                "limitTime":  "--:--",
-                "market":     "上市",
-                "instiForeign": insti.get("foreign", None),
-                "instiTrust":   insti.get("trust",   None),
-                "instiDealer":  insti.get("dealer",  None),
-                "instiTotal":   insti.get("total",   None),
-                "reason":     "",
-            })
+    # openapi.twse.com.tw 更新較慢（隔日），改用 www.twse.com.tw 當天即時
+    twse_resp = fetch("https://www.twse.com.tw/rwd/zh/afterTrading/STOCK_DAY_ALL?response=json")
+    twse = twse_resp.get("data", []) if twse_resp else []
+    # fields: [代號, 名稱, 成交股數, 成交金額, 開盤, 最高, 最低, 收盤, 漲跌, 筆數]
+    for row in twse:
+        if len(row) < 9:
+            continue
+        code  = row[0].strip()
+        close = parse_price(row[7])
+        chg   = parse_price(row[8])
+        vol   = int(parse_price(row[2]) / 1000)  # 股 → 張
+        tv    = parse_price(row[3])
+        pct   = calc_change_pct(close, chg)
+        if not (LIMIT_UP_MIN <= pct <= LIMIT_UP_MAX):
+            continue
+        if not code.isdigit():
+            continue
+        insti = (insti_map or {}).get(code, {})
+        stocks.append({
+            "code":       code,
+            "name":       row[1].strip(),
+            "sector":     sector_map.get(code, "其他"),
+            "change":     pct,
+            "volume":     vol,
+            "tradeValue": tv,
+            "closePrice": close,
+            "openPrice":  parse_price(row[4]),
+            "limitTime":  "--:--",
+            "market":     "上市",
+            "instiForeign": insti.get("foreign", None),
+            "instiTrust":   insti.get("trust",   None),
+            "instiDealer":  insti.get("dealer",  None),
+            "instiTotal":   insti.get("total",   None),
+            "reason":     "",
+        })
 
     # ── 上櫃 (TPEx) ──
     tpex = fetch("https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes")
