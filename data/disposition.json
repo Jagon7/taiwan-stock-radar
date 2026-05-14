@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "data": [
     {
       "code": "4529",
@@ -312,30 +312,10 @@
       "market": "上市"
     },
     {
-      "code": "3026",
-      "name": "禾伸堂",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/12～115/05/25",
-      "endDate": "2026-05-25",
-      "announceDate": "115/05/11",
-      "market": "上市"
-    },
-    {
       "code": "4561",
       "name": "健椿",
       "count": 9,
       "condition": "連續5個營業日",
-      "period": "115/05/12~115/05/25",
-      "endDate": "2026-05-25",
-      "announceDate": "115/05/11",
-      "market": "上櫃"
-    },
-    {
-      "code": "6173",
-      "name": "信昌電",
-      "count": 9,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
       "period": "115/05/12~115/05/25",
       "endDate": "2026-05-25",
       "announceDate": "115/05/11",
@@ -364,16 +344,6 @@
     {
       "code": "8227",
       "name": "巨有科技",
-      "count": 9,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/12~115/05/25",
-      "endDate": "2026-05-25",
-      "announceDate": "115/05/11",
-      "market": "上櫃"
-    },
-    {
-      "code": "8291",
-      "name": "尚茂",
       "count": 9,
       "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
       "period": "115/05/12~115/05/25",
@@ -479,6 +449,106 @@
       "period": "115/05/14~115/05/27",
       "endDate": "2026-05-27",
       "announceDate": "115/05/13",
+      "market": "上櫃"
+    },
+    {
+      "code": "2492",
+      "name": "華新科",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/15～115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上市"
+    },
+    {
+      "code": "3026",
+      "name": "禾伸堂",
+      "count": 2,
+      "condition": "連續三次",
+      "period": "115/05/15～115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上市"
+    },
+    {
+      "code": "6831",
+      "name": "邁科",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/15～115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上市"
+    },
+    {
+      "code": "8114",
+      "name": "振樺電",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/15～115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上市"
+    },
+    {
+      "code": "4966",
+      "name": "譜瑞-KY",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "6173",
+      "name": "信昌電",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "6263",
+      "name": "普萊德",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "8069",
+      "name": "元太",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "8291",
+      "name": "尚茂",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "8358",
+      "name": "金居",
+      "count": 7,
+      "condition": "最近10個營業日內有6個營業日",
+      "period": "115/05/15~115/05/28",
+      "endDate": "2026-05-28",
+      "announceDate": "115/05/14",
       "market": "上櫃"
     }
   ]
