@@ -1,44 +1,34 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "data": [
     {
-      "name": "半導體",
-      "count": 8,
-      "momentum": "strong"
+      "name": "其他電子",
+      "count": 4,
+      "momentum": "normal"
+    },
+    {
+      "name": "電機機械",
+      "count": 4,
+      "momentum": "normal"
     },
     {
       "name": "電子零組件",
-      "count": 7,
-      "momentum": "strong"
+      "count": 4,
+      "momentum": "normal"
     },
     {
       "name": "光電",
-      "count": 6,
-      "momentum": "strong"
-    },
-    {
-      "name": "通信網路",
       "count": 2,
       "momentum": "weak"
     },
     {
-      "name": "其他電子",
+      "name": "半導體",
       "count": 2,
       "momentum": "weak"
     },
     {
-      "name": "電子通路",
-      "count": 1,
-      "momentum": "weak"
-    },
-    {
-      "name": "電腦週邊",
-      "count": 1,
-      "momentum": "weak"
-    },
-    {
-      "name": "數位雲端",
-      "count": 1,
+      "name": "生技醫療",
+      "count": 2,
       "momentum": "weak"
     },
     {
@@ -47,7 +37,17 @@
       "momentum": "weak"
     },
     {
-      "name": "鋼鐵",
+      "name": "電子通路",
+      "count": 1,
+      "momentum": "weak"
+    },
+    {
+      "name": "運動休閒",
+      "count": 1,
+      "momentum": "weak"
+    },
+    {
+      "name": "數位雲端",
       "count": 1,
       "momentum": "weak"
     }

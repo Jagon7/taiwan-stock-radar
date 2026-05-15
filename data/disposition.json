@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "data": [
     {
       "code": "4529",
@@ -412,16 +412,6 @@
       "market": "上櫃"
     },
     {
-      "code": "7751",
-      "name": "竑騰",
-      "count": 7,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/13~115/05/26",
-      "endDate": "2026-05-26",
-      "announceDate": "115/05/12",
-      "market": "上櫃"
-    },
-    {
       "code": "7769",
       "name": "鴻勁",
       "count": 1,
@@ -549,6 +539,56 @@
       "period": "115/05/15~115/05/28",
       "endDate": "2026-05-28",
       "announceDate": "115/05/14",
+      "market": "上櫃"
+    },
+    {
+      "code": "3135",
+      "name": "凌航",
+      "count": 1,
+      "condition": "連續五次",
+      "period": "115/05/18～115/05/29",
+      "endDate": "2026-05-29",
+      "announceDate": "115/05/15",
+      "market": "上市"
+    },
+    {
+      "code": "5228",
+      "name": "鈺鎧",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/18~115/05/29",
+      "endDate": "2026-05-29",
+      "announceDate": "115/05/15",
+      "market": "上櫃"
+    },
+    {
+      "code": "6829",
+      "name": "千附精密",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/18~115/05/29",
+      "endDate": "2026-05-29",
+      "announceDate": "115/05/15",
+      "market": "上櫃"
+    },
+    {
+      "code": "7751",
+      "name": "竑騰",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/18~115/05/29",
+      "endDate": "2026-05-29",
+      "announceDate": "115/05/15",
+      "market": "上櫃"
+    },
+    {
+      "code": "8444",
+      "name": "綠河-KY",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/18~115/05/29",
+      "endDate": "2026-05-29",
+      "announceDate": "115/05/15",
       "market": "上櫃"
     }
   ]

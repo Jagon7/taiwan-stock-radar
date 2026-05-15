@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "data": [
     {
       "code": "2344",
@@ -317,7 +317,7 @@
       "code": "6546",
       "name": "正基",
       "market": "上櫃",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 5.0,
       "currency": "台幣",
@@ -330,7 +330,7 @@
       "code": "6546",
       "name": "正基",
       "market": "上櫃",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 2.0,
       "currency": "台幣",
