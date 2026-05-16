@@ -1,26 +1,6 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "data": [
-    {
-      "code": "4529",
-      "name": "淳紳",
-      "count": 4,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/04/30~115/05/14",
-      "endDate": "2026-05-14",
-      "announceDate": "115/04/29",
-      "market": "上櫃"
-    },
-    {
-      "code": "6735",
-      "name": "美達科技",
-      "count": 4,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/04/30~115/05/14",
-      "endDate": "2026-05-14",
-      "announceDate": "115/04/29",
-      "market": "上櫃"
-    },
     {
       "code": "3167",
       "name": "大量",

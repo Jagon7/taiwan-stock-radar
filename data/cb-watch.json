@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-15",
+  "date": "2026-05-16",
   "data": [
     {
       "code": "3324",
@@ -36,7 +36,7 @@
       "listingDate": "2026-03-06",
       "amount": 10.0,
       "conversionPrice": null,
-      "closePrice": 162.0,
+      "closePrice": 161.0,
       "market": "上市",
       "underwriter": "華南永昌綜合證券股份有限公司"
     },
@@ -49,7 +49,7 @@
       "listingDate": "2026-03-06",
       "amount": 15.0,
       "conversionPrice": null,
-      "closePrice": 76.6,
+      "closePrice": 76.3,
       "market": "上市",
       "underwriter": "群益金鼎證券股份有限公司"
     },
@@ -62,7 +62,7 @@
       "listingDate": "2026-03-13",
       "amount": 25.0,
       "conversionPrice": null,
-      "closePrice": 58.2,
+      "closePrice": 56.5,
       "market": "上市",
       "underwriter": "凱基證券股份有限公司"
     },
@@ -75,7 +75,7 @@
       "listingDate": "2026-04-03",
       "amount": 20.0,
       "conversionPrice": null,
-      "closePrice": 363.0,
+      "closePrice": 353.0,
       "market": "上市",
       "underwriter": "台新綜合證券股份有限公司"
     },
@@ -88,7 +88,7 @@
       "listingDate": "2026-04-17",
       "amount": 2.5,
       "conversionPrice": null,
-      "closePrice": 16.2,
+      "closePrice": 16.1,
       "market": "上市",
       "underwriter": "群益金鼎證券股份有限公司"
     },
@@ -101,7 +101,7 @@
       "listingDate": "2026-04-24",
       "amount": 15.0,
       "conversionPrice": null,
-      "closePrice": 220.5,
+      "closePrice": 216.0,
       "market": "上市",
       "underwriter": "統一綜合證券股份有限公司"
     },
@@ -179,7 +179,7 @@
       "listingDate": "2026-05-08",
       "amount": 4.0,
       "conversionPrice": null,
-      "closePrice": 144.0,
+      "closePrice": 142.0,
       "market": "上市",
       "underwriter": "永豐金證券股份有限公司"
     },
@@ -192,7 +192,7 @@
       "listingDate": "2026-05-22",
       "amount": 8.0,
       "conversionPrice": null,
-      "closePrice": 870.0,
+      "closePrice": 948.0,
       "market": "上市",
       "underwriter": "福邦證券股份有限公司"
     },
@@ -218,7 +218,7 @@
       "listingDate": "2026-05-29",
       "amount": 10.0,
       "conversionPrice": null,
-      "closePrice": 258.0,
+      "closePrice": 264.5,
       "market": "上市",
       "underwriter": "華南永昌綜合證券股份有限公司"
     }
