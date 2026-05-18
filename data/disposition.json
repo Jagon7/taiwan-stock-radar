@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-17",
+  "date": "2026-05-18",
   "data": [
     {
       "code": "3167",
@@ -569,6 +569,36 @@
       "period": "115/05/18~115/05/29",
       "endDate": "2026-05-29",
       "announceDate": "115/05/15",
+      "market": "上櫃"
+    },
+    {
+      "code": "6449",
+      "name": "鈺邦",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/19～115/06/01",
+      "endDate": "2026-06-01",
+      "announceDate": "115/05/18",
+      "market": "上市"
+    },
+    {
+      "code": "3498",
+      "name": "陽程",
+      "count": 4,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/19~115/06/01",
+      "endDate": "2026-06-01",
+      "announceDate": "115/05/18",
+      "market": "上櫃"
+    },
+    {
+      "code": "4971",
+      "name": "IET-KY",
+      "count": 4,
+      "condition": "連續5個營業日",
+      "period": "115/05/19~115/06/01",
+      "endDate": "2026-06-01",
+      "announceDate": "115/05/18",
       "market": "上櫃"
     }
   ]
