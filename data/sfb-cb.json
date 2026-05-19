@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-18",
+  "date": "2026-05-19",
   "data": [
     {
       "code": "2344",
@@ -343,7 +343,7 @@
       "code": "3491",
       "name": "昇達科技",
       "market": "上櫃",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 12.0,
       "currency": "台幣",
@@ -455,6 +455,19 @@
       "effectiveDate": "2026-05-28",
       "withdrawDate": null,
       "underwriter": "凱基證券"
+    },
+    {
+      "code": "8054",
+      "name": "安國國際科技",
+      "market": "上櫃",
+      "status": "審查中",
+      "cbType": "轉換公司債(有擔保)",
+      "amount": 4.0,
+      "currency": "台幣",
+      "filingDate": "2026-05-18",
+      "effectiveDate": "2026-06-15",
+      "withdrawDate": null,
+      "underwriter": "福邦證券"
     }
   ]
 }
