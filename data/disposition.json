@@ -1,36 +1,6 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "data": [
-    {
-      "code": "6234",
-      "name": "高僑",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/05~115/05/18",
-      "endDate": "2026-05-18",
-      "announceDate": "115/05/04",
-      "market": "上櫃"
-    },
-    {
-      "code": "9949",
-      "name": "琉園",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/05~115/05/18",
-      "endDate": "2026-05-18",
-      "announceDate": "115/05/04",
-      "market": "上櫃"
-    },
-    {
-      "code": "2455",
-      "name": "全新",
-      "count": 1,
-      "condition": "最近十個營業日已有六次",
-      "period": "115/05/06～115/05/19",
-      "endDate": "2026-05-19",
-      "announceDate": "115/05/05",
-      "market": "上市"
-    },
     {
       "code": "8027",
       "name": "鈦昇",
@@ -224,7 +194,7 @@
     {
       "code": "6405",
       "name": "悅城",
-      "count": 2,
+      "count": 1,
       "condition": "連續三次",
       "period": "115/05/11～115/05/22",
       "endDate": "2026-05-22",
@@ -629,6 +599,46 @@
       "period": "115/05/20~115/06/02",
       "endDate": "2026-06-02",
       "announceDate": "115/05/19",
+      "market": "上櫃"
+    },
+    {
+      "code": "6806",
+      "name": "森崴能源",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/21～115/06/03",
+      "endDate": "2026-06-03",
+      "announceDate": "115/05/20",
+      "market": "上市"
+    },
+    {
+      "code": "1591",
+      "name": "駿吉-KY",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/21~115/06/03",
+      "endDate": "2026-06-03",
+      "announceDate": "115/05/20",
+      "market": "上櫃"
+    },
+    {
+      "code": "3624",
+      "name": "光頡",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/21~115/06/03",
+      "endDate": "2026-06-03",
+      "announceDate": "115/05/20",
+      "market": "上櫃"
+    },
+    {
+      "code": "8455",
+      "name": "大拓-KY",
+      "count": 7,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/21~115/06/03",
+      "endDate": "2026-06-03",
+      "announceDate": "115/05/20",
       "market": "上櫃"
     }
   ]
