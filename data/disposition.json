@@ -1,66 +1,6 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "data": [
-    {
-      "code": "8027",
-      "name": "鈦昇",
-      "count": 4,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/06~115/05/19",
-      "endDate": "2026-05-19",
-      "announceDate": "115/05/05",
-      "market": "上櫃"
-    },
-    {
-      "code": "1597",
-      "name": "直得",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/07～115/05/20",
-      "endDate": "2026-05-20",
-      "announceDate": "115/05/06",
-      "market": "上市"
-    },
-    {
-      "code": "2233",
-      "name": "宇隆",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/07～115/05/20",
-      "endDate": "2026-05-20",
-      "announceDate": "115/05/06",
-      "market": "上市"
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/07～115/05/20",
-      "endDate": "2026-05-20",
-      "announceDate": "115/05/06",
-      "market": "上市"
-    },
-    {
-      "code": "2486",
-      "name": "一詮",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/07～115/05/20",
-      "endDate": "2026-05-20",
-      "announceDate": "115/05/06",
-      "market": "上市"
-    },
-    {
-      "code": "4764",
-      "name": "雙鍵",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/07～115/05/20",
-      "endDate": "2026-05-20",
-      "announceDate": "115/05/06",
-      "market": "上市"
-    },
     {
       "code": "3163",
       "name": "波若威",
@@ -234,7 +174,7 @@
     {
       "code": "3016",
       "name": "嘉晶",
-      "count": 2,
+      "count": 1,
       "condition": "連續三次",
       "period": "115/05/12～115/05/25",
       "endDate": "2026-05-25",
@@ -512,16 +452,6 @@
       "market": "上櫃"
     },
     {
-      "code": "6449",
-      "name": "鈺邦",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/19～115/06/01",
-      "endDate": "2026-06-01",
-      "announceDate": "115/05/18",
-      "market": "上市"
-    },
-    {
       "code": "3498",
       "name": "陽程",
       "count": 4,
@@ -640,6 +570,26 @@
       "endDate": "2026-06-03",
       "announceDate": "115/05/20",
       "market": "上櫃"
+    },
+    {
+      "code": "3090",
+      "name": "日電貿",
+      "count": 1,
+      "condition": "連續三次",
+      "period": "115/05/22～115/06/04",
+      "endDate": "2026-06-04",
+      "announceDate": "115/05/21",
+      "market": "上市"
+    },
+    {
+      "code": "6449",
+      "name": "鈺邦",
+      "count": 2,
+      "condition": "連續三次",
+      "period": "115/05/22～115/06/04",
+      "endDate": "2026-06-04",
+      "announceDate": "115/05/21",
+      "market": "上市"
     }
   ]
 }

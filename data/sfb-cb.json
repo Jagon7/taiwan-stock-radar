@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "data": [
     {
       "code": "2344",
@@ -468,6 +468,19 @@
       "effectiveDate": "2026-06-15",
       "withdrawDate": null,
       "underwriter": "福邦證券"
+    },
+    {
+      "code": "8112",
+      "name": "至上電子",
+      "market": "上市",
+      "status": "審查中",
+      "cbType": "轉換公司債(無擔保)",
+      "amount": 20.0,
+      "currency": "台幣",
+      "filingDate": "2026-05-20",
+      "effectiveDate": "2026-06-05",
+      "withdrawDate": null,
+      "underwriter": "凱基證券"
     }
   ]
 }
