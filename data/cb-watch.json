@@ -1,19 +1,6 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "data": [
-    {
-      "code": "3324",
-      "name": "雙鴻",
-      "cbSeries": "第12次",
-      "filingDate": "2026-02-05",
-      "bookBuildDate": "2026-02-05",
-      "listingDate": "2026-02-20",
-      "amount": 30.0,
-      "conversionPrice": null,
-      "closePrice": 1000.0,
-      "market": "上櫃",
-      "underwriter": "凱基證券股份有限公司"
-    },
     {
       "code": "6894",
       "name": "衛司特",
@@ -23,7 +10,7 @@
       "listingDate": "2026-03-06",
       "amount": 3.0,
       "conversionPrice": null,
-      "closePrice": 354.5,
+      "closePrice": 358.5,
       "market": "上櫃",
       "underwriter": "兆豐證券股份有限公司"
     },
@@ -36,7 +23,7 @@
       "listingDate": "2026-03-06",
       "amount": 10.0,
       "conversionPrice": null,
-      "closePrice": 166.0,
+      "closePrice": 182.5,
       "market": "上市",
       "underwriter": "華南永昌綜合證券股份有限公司"
     },
@@ -49,7 +36,7 @@
       "listingDate": "2026-03-06",
       "amount": 15.0,
       "conversionPrice": null,
-      "closePrice": 75.6,
+      "closePrice": 75.8,
       "market": "上市",
       "underwriter": "群益金鼎證券股份有限公司"
     },
@@ -62,7 +49,7 @@
       "listingDate": "2026-03-13",
       "amount": 25.0,
       "conversionPrice": null,
-      "closePrice": 51.4,
+      "closePrice": 52.9,
       "market": "上市",
       "underwriter": "凱基證券股份有限公司"
     },
@@ -75,7 +62,7 @@
       "listingDate": "2026-04-03",
       "amount": 20.0,
       "conversionPrice": null,
-      "closePrice": 383.5,
+      "closePrice": 384.0,
       "market": "上市",
       "underwriter": "台新綜合證券股份有限公司"
     },
@@ -88,7 +75,7 @@
       "listingDate": "2026-04-17",
       "amount": 2.5,
       "conversionPrice": null,
-      "closePrice": 15.9,
+      "closePrice": 16.1,
       "market": "上市",
       "underwriter": "群益金鼎證券股份有限公司"
     },
@@ -101,7 +88,7 @@
       "listingDate": "2026-04-24",
       "amount": 15.0,
       "conversionPrice": null,
-      "closePrice": 190.5,
+      "closePrice": 195.5,
       "market": "上市",
       "underwriter": "統一綜合證券股份有限公司"
     },
@@ -114,7 +101,7 @@
       "listingDate": "2026-05-01",
       "amount": 5.0,
       "conversionPrice": null,
-      "closePrice": 62.5,
+      "closePrice": 66.8,
       "market": "上櫃",
       "underwriter": "群益金鼎證券股份有限公司"
     },
@@ -127,7 +114,7 @@
       "listingDate": "2026-05-01",
       "amount": 15.0,
       "conversionPrice": null,
-      "closePrice": 38.75,
+      "closePrice": 38.7,
       "market": "上櫃",
       "underwriter": "台新綜合證券股份有限公司"
     },
@@ -140,7 +127,7 @@
       "listingDate": "2026-05-01",
       "amount": 4.0,
       "conversionPrice": null,
-      "closePrice": 22.35,
+      "closePrice": 22.4,
       "market": "上櫃",
       "underwriter": "統一綜合證券股份有限公司"
     },
@@ -166,7 +153,7 @@
       "listingDate": "2026-05-08",
       "amount": 10.0,
       "conversionPrice": null,
-      "closePrice": 544.0,
+      "closePrice": 568.0,
       "market": "上櫃",
       "underwriter": "凱基證券股份有限公司"
     },
@@ -179,7 +166,7 @@
       "listingDate": "2026-05-08",
       "amount": 4.0,
       "conversionPrice": null,
-      "closePrice": 138.0,
+      "closePrice": 139.5,
       "market": "上市",
       "underwriter": "永豐金證券股份有限公司"
     },
@@ -192,7 +179,7 @@
       "listingDate": "2026-05-22",
       "amount": 8.0,
       "conversionPrice": null,
-      "closePrice": 1120.0,
+      "closePrice": 1230.0,
       "market": "上市",
       "underwriter": "福邦證券股份有限公司"
     },
@@ -205,7 +192,7 @@
       "listingDate": "2026-05-22",
       "amount": 4.0,
       "conversionPrice": null,
-      "closePrice": 310.0,
+      "closePrice": 341.0,
       "market": "上櫃",
       "underwriter": "富邦綜合證券股份有限公司"
     },
@@ -218,7 +205,7 @@
       "listingDate": "2026-05-29",
       "amount": 10.0,
       "conversionPrice": null,
-      "closePrice": 237.0,
+      "closePrice": 260.5,
       "market": "上市",
       "underwriter": "華南永昌綜合證券股份有限公司"
     }
