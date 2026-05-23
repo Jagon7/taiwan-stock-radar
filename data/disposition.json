@@ -1,66 +1,6 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-23",
   "data": [
-    {
-      "code": "3455",
-      "name": "由田",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/08~115/05/21",
-      "endDate": "2026-05-21",
-      "announceDate": "115/05/07",
-      "market": "上櫃"
-    },
-    {
-      "code": "3581",
-      "name": "博磊",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/08~115/05/21",
-      "endDate": "2026-05-21",
-      "announceDate": "115/05/07",
-      "market": "上櫃"
-    },
-    {
-      "code": "4951",
-      "name": "精拓科",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/08~115/05/21",
-      "endDate": "2026-05-21",
-      "announceDate": "115/05/07",
-      "market": "上櫃"
-    },
-    {
-      "code": "5386",
-      "name": "青雲",
-      "count": 5,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/08~115/05/21",
-      "endDate": "2026-05-21",
-      "announceDate": "115/05/07",
-      "market": "上櫃"
-    },
-    {
-      "code": "3532",
-      "name": "台勝科",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/11～115/05/22",
-      "endDate": "2026-05-22",
-      "announceDate": "115/05/08",
-      "market": "上市"
-    },
-    {
-      "code": "6405",
-      "name": "悅城",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/11～115/05/22",
-      "endDate": "2026-05-22",
-      "announceDate": "115/05/08",
-      "market": "上市"
-    },
     {
       "code": "1595",
       "name": "川寶",
