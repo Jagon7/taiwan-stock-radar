@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "data": [
     {
       "code": "2344",
@@ -481,6 +481,19 @@
       "effectiveDate": "2026-06-05",
       "withdrawDate": null,
       "underwriter": "凱基證券"
+    },
+    {
+      "code": "6187",
+      "name": "萬潤科技",
+      "market": "上櫃",
+      "status": "審查中",
+      "cbType": "轉換公司債(無擔保)",
+      "amount": 30.0,
+      "currency": "台幣",
+      "filingDate": "2026-05-22",
+      "effectiveDate": "2026-06-09",
+      "withdrawDate": null,
+      "underwriter": "元大證券"
     }
   ]
 }
