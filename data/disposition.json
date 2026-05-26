@@ -1,46 +1,6 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "data": [
-    {
-      "code": "1595",
-      "name": "川寶",
-      "count": 8,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/11~115/05/22",
-      "endDate": "2026-05-22",
-      "announceDate": "115/05/08",
-      "market": "上櫃"
-    },
-    {
-      "code": "4991",
-      "name": "環宇-KY",
-      "count": 8,
-      "condition": "最近10個營業日內有6個營業日",
-      "period": "115/05/11~115/05/22",
-      "endDate": "2026-05-22",
-      "announceDate": "115/05/08",
-      "market": "上櫃"
-    },
-    {
-      "code": "6274",
-      "name": "台燿",
-      "count": 8,
-      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
-      "period": "115/05/11~115/05/22",
-      "endDate": "2026-05-22",
-      "announceDate": "115/05/08",
-      "market": "上櫃"
-    },
-    {
-      "code": "3016",
-      "name": "嘉晶",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/12～115/05/25",
-      "endDate": "2026-05-25",
-      "announceDate": "115/05/11",
-      "market": "上市"
-    },
     {
       "code": "4561",
       "name": "健椿",
@@ -170,16 +130,6 @@
       "endDate": "2026-05-27",
       "announceDate": "115/05/13",
       "market": "上櫃"
-    },
-    {
-      "code": "2492",
-      "name": "華新科",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/15～115/05/28",
-      "endDate": "2026-05-28",
-      "announceDate": "115/05/14",
-      "market": "上市"
     },
     {
       "code": "6831",
@@ -402,16 +352,6 @@
       "market": "上櫃"
     },
     {
-      "code": "3090",
-      "name": "日電貿",
-      "count": 1,
-      "condition": "連續三次",
-      "period": "115/05/22～115/06/04",
-      "endDate": "2026-06-04",
-      "announceDate": "115/05/21",
-      "market": "上市"
-    },
-    {
       "code": "6449",
       "name": "鈺邦",
       "count": 2,
@@ -544,7 +484,7 @@
     {
       "code": "3026",
       "name": "禾伸堂",
-      "count": 3,
+      "count": 2,
       "condition": "連續三次",
       "period": "115/05/26～115/06/08",
       "endDate": "2026-06-08",
@@ -609,6 +549,46 @@
       "period": "115/05/26~115/06/08",
       "endDate": "2026-06-08",
       "announceDate": "115/05/25",
+      "market": "上櫃"
+    },
+    {
+      "code": "2455",
+      "name": "全新",
+      "count": 1,
+      "condition": "連續五次",
+      "period": "115/05/27～115/06/09",
+      "endDate": "2026-06-09",
+      "announceDate": "115/05/26",
+      "market": "上市"
+    },
+    {
+      "code": "2492",
+      "name": "華新科",
+      "count": 2,
+      "condition": "連續三次",
+      "period": "115/05/27～115/06/09",
+      "endDate": "2026-06-09",
+      "announceDate": "115/05/26",
+      "market": "上市"
+    },
+    {
+      "code": "3090",
+      "name": "日電貿",
+      "count": 2,
+      "condition": "連續三次",
+      "period": "115/05/27～115/06/09",
+      "endDate": "2026-06-09",
+      "announceDate": "115/05/26",
+      "market": "上市"
+    },
+    {
+      "code": "4127",
+      "name": "天良",
+      "count": 3,
+      "condition": "因連續3個營業日達本中心作業要點第四條第一項第一款(./attention.html)",
+      "period": "115/05/27~115/06/09",
+      "endDate": "2026-06-09",
+      "announceDate": "115/05/26",
       "market": "上櫃"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "data": [
     {
       "code": "2344",
@@ -395,7 +395,7 @@
       "code": "1295",
       "name": "生合生物科技",
       "market": "上櫃",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 4.0,
       "currency": "台幣",
@@ -408,7 +408,7 @@
       "code": "5291",
       "name": "邑昇實業",
       "market": "上櫃",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 2.0,
       "currency": "台幣",
@@ -421,7 +421,7 @@
       "code": "8442",
       "name": "F-威宏",
       "market": "上市",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(有擔保)",
       "amount": 4.0,
       "currency": "台幣",
@@ -434,7 +434,7 @@
       "code": "8442",
       "name": "F-威宏",
       "market": "上市",
-      "status": "審查中",
+      "status": "生效",
       "cbType": "轉換公司債(無擔保)",
       "amount": 2.0,
       "currency": "台幣",

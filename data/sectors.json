@@ -1,53 +1,53 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "data": [
     {
       "name": "半導體",
-      "count": 21,
-      "momentum": "strong"
-    },
-    {
-      "name": "電子零組件",
       "count": 15,
       "momentum": "strong"
     },
     {
+      "name": "電子零組件",
+      "count": 9,
+      "momentum": "strong"
+    },
+    {
       "name": "光電",
-      "count": 12,
-      "momentum": "strong"
-    },
-    {
-      "name": "電腦週邊",
-      "count": 7,
-      "momentum": "strong"
-    },
-    {
-      "name": "其他電子",
-      "count": 7,
-      "momentum": "strong"
-    },
-    {
-      "name": "鋼鐵",
       "count": 5,
       "momentum": "normal"
     },
     {
+      "name": "電機機械",
+      "count": 4,
+      "momentum": "normal"
+    },
+    {
+      "name": "其他電子",
+      "count": 3,
+      "momentum": "normal"
+    },
+    {
       "name": "通信網路",
-      "count": 3,
-      "momentum": "normal"
-    },
-    {
-      "name": "汽車",
-      "count": 3,
-      "momentum": "normal"
-    },
-    {
-      "name": "化工",
       "count": 2,
       "momentum": "weak"
     },
     {
-      "name": "電機機械",
+      "name": "汽車",
+      "count": 2,
+      "momentum": "weak"
+    },
+    {
+      "name": "油電燃氣",
+      "count": 1,
+      "momentum": "weak"
+    },
+    {
+      "name": "存託憑證",
+      "count": 1,
+      "momentum": "weak"
+    },
+    {
+      "name": "電腦週邊",
       "count": 1,
       "momentum": "weak"
     }
